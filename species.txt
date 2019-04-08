@@ -1,0 +1,6 @@
+Edwards's Fig Parrot,Aves,Psittaciformes,Psittaculidae,Psittaculirostris,Psittaculirostris edwardsii,2,not talking
+Norwegian Blue,Aves,Psittaciformes,Psittacidae,Mopsitta,Mopsitta tanta,2,talking
+Hyacinth Macaw,Aves,Psittaciformes,Psittacidae,Anodorhynchus,Anodorhynchus hyacinthinus,2,talking
+Boa Constrictor,Reptilia,Squamata,Boidae,Boa,Boa constrictor,0,not venomous
+Corn Snake,Reptilia,Squamata,Colubridae,Pantherophis,Pantherophis guttatus,0,not venomous
+Black-necked Spitting Cobra,Reptilia,Squamata,Elapidae,Naja,Naja nigricollis,0,venomous

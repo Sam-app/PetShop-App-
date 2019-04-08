@@ -1,0 +1,52 @@
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.control.RadioButton?>
+<DialogPane fx:id="addPetDialog" fx:controller="com.samuel.petshop.AddPetDialogController"
+            xmlns:fx="http://javafx.com/fxml">
+
+    <!--<headerText>-->
+        <!--WE could pu text here-->
+    <!--</headerText>-->
+    <content>
+        <GridPane vgap="10" hgap="10">
+
+            <Label text="Pet Name: " GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+            <TextField fx:id="petNameTextField" GridPane.rowIndex="0" GridPane.columnIndex="1" />
+
+            <Label  text="Common Name: " GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+            <TextField  fx:id="petCommonNameTextField" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+            <Label  text="Main Colour: " GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+            <TextField  fx:id="petMainColourTextField" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+
+            <Label  text="Price: " GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+            <TextField  fx:id="petPriceTextField" GridPane.rowIndex="3" GridPane.columnIndex="1" />
+
+            <Label  text="Gender: " GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+
+            <fx:define>
+                <ToggleGroup fx:id="petGenderToggleGroup"/>
+            </fx:define>
+                <RadioButton text="Male" GridPane.rowIndex="4" GridPane.columnIndex="1" userData="male" selected="true"
+                             toggleGroup="$petGenderToggleGroup"/>
+                <RadioButton text="Female" GridPane.rowIndex="5" GridPane.columnIndex="1" userData="female"
+                             toggleGroup="$petGenderToggleGroup" />
+
+
+
+            <Label text="Arrival Date: " GridPane.rowIndex="6" GridPane.columnIndex="0"/>
+            <DatePicker  fx:id="arrivalDatePicker" GridPane.rowIndex="6" GridPane.columnIndex="1"/>
+
+            <Label text="Sell Date: " GridPane.rowIndex="7" GridPane.columnIndex="0"/>
+            <DatePicker  fx:id="SellDatePicker" GridPane.rowIndex="7" GridPane.columnIndex="1"/>
+
+        </GridPane>
+
+    </content>
+
+
+</DialogPane>

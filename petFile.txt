@@ -1,0 +1,43 @@
+Aristotle,Dog,104.8,male,black,2018-05-12,2018-05-16
+Laura,Common Barbel,18.97,female,bronze,2017-12-01,2018-05-15
+Samuel,Human,100.0,male,Black,2017-05-12,2018-05-15
+Teresa,Cat,67.95,female,black,2017-12-01,2017-12-01
+Nagini,Corn Snake,89.9,male,red,2017-12-01,2017-12-01
+Kaa,Boa Constrictor,311.0,male,brown,2017-12-01,2017-12-01
+Aristotle,Dog,104.8,male,black,2017-11-01,2017-11-01
+Molly,Dog,140.0,female,brown,2018-05-12,2018-05-12
+Cajus,Dog,188.0,male,light brown,2017-10-04,2017-10-04
+Polly,Norwegian Blue,65.5,female,blue,2017-10-04,2017-10-04
+Medusa,Black-necked Spitting Cobra,129.99,female,black,2018-01-13
+Mr Crowley,Black-necked Spitting Cobra,114.75,male,black,2018-01-13
+Victoria,Yellow Canary,20.02,female,yellow,2018-05-09
+Heisenberg,Hyacinth Macaw,103.56,male,blue,2018-01-02
+Felix,Edwards's Fig Parrot,27.8,male,green,2018-01-02
+Molly,Golden Hamster,24.9,female,brown,2018-01-02,2018-01-02
+Donald,Goldfish,10.23,male,orange,2018-05-09
+Miss Bubbles,Goldfish,10.23,female,orange,2018-05-09
+Test name,Teest common name,12.0,Test gender,Test Colour,2018-05-10
+Cajus,Dog,188.0,male,light brown,2018-05-12
+Polly,Norwegian Blue,65.5,female,blue,2018-05-12
+Kaa,Boa Constrictor,311.0,male,brown,2018-05-12
+Medusa,Black-necked Spitting Cobra,129.99,female,black,2018-05-12
+Mr Crowley,Black-necked Spitting Cobra,114.75,male,black,2018-05-12
+Nagini,Corn Snake,89.9,male,red,2018-05-12
+Laura,Common Barbel,18.97,female,bronze,2018-05-12
+Aristotle,Dog,104.8,male,black,2018-05-12
+Molly,Dog,140.0,female,brown,2018-05-12
+Cajus,Dog,188.0,male,light brown,2018-05-12
+Polly,Norwegian Blue,65.5,female,blue,2018-05-12
+Kaa,Boa Constrictor,311.0,male,brown,2018-05-12
+Medusa,Black-necked Spitting Cobra,129.99,female,black,2018-05-12
+Mr Crowley,Black-necked Spitting Cobra,114.75,male,black,2018-05-12
+Nagini,Corn Snake,89.9,male,red,2018-05-12
+Laura,Common Barbel,18.97,female,bronze,2018-05-12
+Bob,Dog,12.3,male,white and black,2018-05-12
+Indira,Koi,9.45,female,red,2018-01-02,2018-01-02
+Walter,Rabbit,39.5,male,grey,2018-05-16
+Bunny,Rabbit,34.6,female,white,2018-05-16
+Dude,Rabbit,32.2,male,light brown,2018-05-16
+Walter, Rabbit,39.5, male, grey,2018-05-16
+Bunny, Rabbit,34.6, female, white,2018-05-16
+Dude, Rabbit,32.2, male, light brown,2018-05-16

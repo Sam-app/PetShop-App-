@@ -1,0 +1,15 @@
+Cat,Mammalia,Carnivora,Felidae,Felis,Felis silvestris,4
+Rabbit,Mammalia,Lagomorpha,Leporidae,Oryctolagus,Oryctolagus cuniculus,4
+Golden Hamster,Mammalia,Rodentia,Cricetidae,Mesocricetus,Mesocricetus auratus,4
+Roborovski Hamster,Mammalia,Rodentia,Cricetidae,Phodopus,Phodopus roborovskii,4
+Guinea Pig,Mammalia,Rodentia,Caviidae,Cavia,Cavia porcellus,4
+Edwards's Fig Parrot,Aves,Psittaciformes,Psittaculidae,Psittaculirostris,Psittaculirostris edwardsii,2,not talking
+Norwegian Blue,Aves,Psittaciformes,Psittacidae,Mopsitta,Mopsitta tanta,2,talking
+Hyacinth Macaw,Aves,Psittaciformes,Psittacidae,Anodorhynchus,Anodorhynchus hyacinthinus,2,talking
+Yellow Canary,Aves,Passeriformes,Fringillidae,Crithagra,Crithagra flaviventris,2
+Goldfish,Actinopterygii,Cypriniformes,Cyprinidae,Carassius,Carassius auratus,0
+Koi,Actinopterygii,Cypriniformes,Cyprinidae,Cyprinus,Cyprinus rubrofuscus,0
+Common Barbel,Actinopterygii,Cypriniformes,Cyprinidae,Barbus,Barbus barbus,0
+Boa Constrictor,Reptilia,Squamata,Boidae,Boa,Boa constrictor,0,not venomous
+Corn Snake,Reptilia,Squamata,Colubridae,Pantherophis,Pantherophis guttatus,0,not venomous
+Black-necked Spitting Cobra,Reptilia,Squamata,Elapidae,Naja,Naja nigricollis,0,venomous

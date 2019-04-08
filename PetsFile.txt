@@ -1,0 +1,17 @@
+Aristotle, Dog, 104.80, male, black, 2017-11-01
+Molly, Dog, 140, female, brown, 2018-01-02
+Cajus, Dog, 188, male, light brown, 2017-10-04, 2017-10-14
+Polly, Norwegian Blue, 65.50, female, blue, 2017-10-04
+Kaa, Boa Constrictor, 311, male, brown, 2017-12-01
+Medusa, Black-necked Spitting Cobra, 129.99, female, black, 2018-01-13
+Mr Crowley, Black-necked Spitting Cobra, 114.75, male, black, 2018-01-13
+Nagini, Corn Snake, 89.90, male, red, 2017-12-01
+Laura, Common Barbel, 18.97, female, bronze, 2017-12-01
+Victoria, Yellow Canary, 20.02, female, yellow
+Teresa, Cat, 67.95, female, black, 2017-12-01
+Heisenberg, Hyacinth Macaw, 103.56, male, blue, 2018-01-02
+Felix, Edwards's Fig Parrot, 27.80, male, green, 2018-01-02
+Indira, Koi, 9.45, female, red, 2018-01-02
+Molly, Golden Hamster, 24.90, female, brown, 2018-01-02, 2018-01-15
+Donald, Goldfish, 10.23, male, orange
+Miss Bubbles, Goldfish, 10.23, female, orange

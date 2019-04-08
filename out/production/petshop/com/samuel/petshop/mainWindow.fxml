@@ -1,0 +1,110 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.DatePicker?>
+<BorderPane fx:id="mainWindow" fx:controller="com.samuel.petshop.Controller"
+            xmlns:fx="http://javafx.com/fxml">
+
+    <top>
+        <VBox>
+            <MenuBar>
+            <Menu text="File">
+                <items>
+                    <MenuItem text="New Animal" onAction="#showAddPetDialog" />
+                    <SeparatorMenuItem/>
+                    <MenuItem text="Add Animals" onAction="#showAddPetsDialog"/>
+                    <SeparatorMenuItem/>
+                    <MenuItem text="Exit" />
+                </items>
+            </Menu>
+            </MenuBar>
+
+            <ToolBar>
+                <HBox>
+                    <Button text="Add Pet" onAction="#showAddPetDialog" >
+                        <tooltip>
+                            <Tooltip text="Add a new pet"/>
+                        </tooltip>
+                    </Button>
+                    <Button text="Add Pets " onAction="#showAddPetsDialog">
+                        <tooltip>
+                            <Tooltip text="Add new pet with properties separated by comma and object semicolon"/>
+                        </tooltip>
+                    </Button>
+                    <Button text="Sell Pets " onAction="#handleSellPetClicked" >
+                        <tooltip>
+                            <Tooltip text="Select pet you want to sell"/>
+                        </tooltip>
+                    </Button>
+                    <ToggleButton fx:id="soldToggleBtn" text="Sold Pets" onAction="#handleSoldToggleBtn" >
+                        <tooltip>
+                            <Tooltip text="Unsold pets listed"/>
+                        </tooltip>
+
+                    </ToggleButton>
+
+                    <ToggleButton fx:id="unSoldToggleBtn" text="UnSold Pets" onAction="#handleUnSoldToggleBtn">
+                        <tooltip>
+                            <Tooltip text="Unsold pets listed"/>
+                        </tooltip>
+
+                    </ToggleButton>
+
+                </HBox>
+            </ToolBar>
+        </VBox>
+    </top>
+    <left>
+
+    </left>
+
+
+    <center>
+        <VBox>
+            <Label fx:id="petDetaileLabel"  style="-fx-padding: 4 10" >
+                <font>
+                    <Font name="Times New Roman Bold" size="20"></Font>
+                </font>
+            </Label>
+            <Label fx:id="speciesDetailLabel"   style="-fx-padding: 4 10" >
+                <font>
+                    <Font name="Times New Roman Bold" size="20"></Font>
+                </font>
+            </Label>
+            <Label fx:id="petSellPriceLabel"   style="-fx-padding: 4 10" >
+                <font>
+                    <Font name="Times New Roman Bold" size="20"></Font>
+                </font>
+            </Label>
+
+        <ListView fx:id="petListView" VBox.vgrow="ALWAYS" style="-fx-font-family: 'Times New Roman';-fx-font-size: 20" onMouseClicked="#handleListClicked" />
+
+        </VBox>
+    </center>
+    <right>
+        <GridPane style="-fx-padding: 60 10">
+            <Label text="Search revenue: " GridPane.rowIndex="0" GridPane.columnIndex="0" style="-fx-font-size: 17;-fx-font-weight: bold"/>
+            <DatePicker  fx:id="searchDatePicker" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+
+            <Button text="Calculate" fx:id="srchRevByDayLbl" onAction="#calculateRevenue" GridPane.rowIndex="2" GridPane.columnIndex="0" style="-fx-alignment: center;-fx-arc-width: 50"/>
+            <Label fx:id="dayRevenueLabel" text="Day Revenue : " GridPane.rowIndex="3" GridPane.columnIndex="0" style="-fx-font-size: 16"/>
+            <Label fx:id="monthRevenueLabel" text="Month Revenue : " GridPane.rowIndex="4" GridPane.columnIndex="0" style="-fx-font-size: 16"/>
+
+        </GridPane>
+    </right>
+
+</BorderPane>
